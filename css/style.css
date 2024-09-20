@@ -4,12 +4,6 @@ body {
     background: #111111;
 }
 
-@media screen and (max-width: 1366px) {
-    nav {
-        min-width: 100%;
-    }
-}
-
 
 nav {
     margin-top: 54px;
@@ -54,13 +48,26 @@ nav li a:hover {
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
     overflow-x: hidden;
 }
 
-.NatureImgNormal {
+.NatureImgNormalSection2 {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    overflow-x: hidden;
+}
+
+.grid-item {
     object-fit: cover;
     margin-right: 10px;
     border-radius: 25px;
@@ -69,16 +76,17 @@ nav li a:hover {
     transition: 1.5s all;
 }
 
-.NatureImgNormal:hover {
+.grid-item:hover {
+    cursor: pointer;
     object-fit: cover;
-    width: 446px;
+    width: 400px;
     height: 532px;
 }
 
 /*  PortraitImgNormal  */
 
 .PortraitImgNormalSection {
-    margin-top: 54px;
+    margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
@@ -91,7 +99,7 @@ nav li a:hover {
     overflow-x: hidden;
 }
 
-.PortraitImgNormal {
+.grid-item {
     object-fit: cover;
     margin-right: 10px;
     border-radius: 25px;
@@ -100,8 +108,85 @@ nav li a:hover {
     transition: 1.5s all;
 }
 
-.PortraitImgNormal:hover {
+.grid-item:hover {
+    cursor: pointer;
     object-fit: cover;
-    width: 446px;
+    width: 400px;
     height: 532px;
+}
+
+/*  popup   */
+
+#popup-bg {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+}
+
+#popup-bg.active {
+    display: flex;
+}
+
+#popup-content {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#popup-img {
+    width: 75%;
+    height: auto;
+    border-radius: 5px 20px 5px 5px;
+}
+
+/*  Credit  */
+
+.credit {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+.credit a {
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+/*  copyright   */
+
+.copyright {
+    font-size: small;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+.copyright a {
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+    font-weight: normal;
 }

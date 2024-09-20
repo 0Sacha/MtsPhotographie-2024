@@ -18,13 +18,34 @@
     </ul>
 </nav>
 <img class="HomeIMG" src="img/portraitIMG.png" alt="Images d'accueil">
-<section class="PortraitImgNormalSection">
-    <!--        Première lignes        -->
-    <img class="PortraitImgNormal" src="./img/PortraitIMG/PortraitIMG_1.png">
-    <img class="PortraitImgNormal" src="./img/PortraitIMG/PortraitIMG_2.png">
-    <img class="PortraitImgNormal" src="./img/PortraitIMG/PortraitIMG_3.png">
-    <img class="PortraitImgNormal" src="./img/PortraitIMG/PortraitIMG_4.png">
-    <img class="PortraitImgNormal" src="./img/PortraitIMG/PortraitIMG_5.png">
-</section>
+<div id="popup-bg">
+    <div id="popup-content">
+        <div id="popup-close">
+            <ion-icon name="close-circle"></ion-icon>
+        </div>
+        <img id="popup-img" src="#" alt=""/>
+    </div>
+</div>
+<div class="grid">
+    <section class="PortraitImgNormalSection">
+        <!--        Première lignes        -->
+        <img class="grid-item" id="PortraitIMG_1" src="./img/PortraitIMG/PortraitIMG_1.png">
+        <img class="grid-item" id="PortraitIMG_2" src="./img/PortraitIMG/PortraitIMG_2.png">
+        <img class="grid-item" id="PortraitIMG_3" src="./img/PortraitIMG/PortraitIMG_3.png">
+        <img class="grid-item" id="PortraitIMG_4" src="./img/PortraitIMG/PortraitIMG_4.png">
+        <img class="grid-item" id="PortraitIMG_5" src="./img/PortraitIMG/PortraitIMG_5.png">
+    </section>
+    <section class="NatureImgNormalSection2">
+        <!--        Deuxièmes lignes        -->
+        <img class="grid-item" id="PortraitIMG_6" src="./img/PortraitIMG/PortraitIMG_6.png">
+        <img class="grid-item" id="PortraitIMG_7" src="./img/PortraitIMG/PortraitIMG_7.png">
+        <img class="grid-item" id="PortraitIMG_8" src="./img/PortraitIMG/PortraitIMG_8.png">
+        <img class="grid-item" id="PortraitIMG_9" src="./img/PortraitIMG/PortraitIMG_9.png">
+        <img class="grid-item" id="PortraitIMG_10" src="./img/PortraitIMG/PortraitIMG_10.png">
+    </section>
+</div>
+<script src="js/PortraitApp.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

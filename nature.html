@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css"><link rel="shortcut icon" href="./img/IcoMtsPhotographie.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/IcoMtsPhotographie.png" type="image/x-icon">
     <title>Nature - Mts Photographie</title>
 </head>
 <body>
@@ -17,21 +18,34 @@
     </ul>
 </nav>
 <img class="HomeIMG" src="img/natureIMG.png" alt="Images d'accueil">
-<section class="NatureImgNormalSection">
-    <!--        Première lignes        -->
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_1.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_2.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_3.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_4.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_5.png">
-    <br>
-    <!--        Deuxièmes lignes        -->
-    <br>
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_6.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_7.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_8.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_9.png">
-    <img class="NatureImgNormal" src="./img/NatureIMG/natureIMG_10.png">
-</section>
+<div id="popup-bg">
+    <div id="popup-content">
+        <div id="popup-close">
+            <ion-icon name="close-circle"></ion-icon>
+        </div>
+        <img id="popup-img" src="#" alt=""/>
+    </div>
+</div>
+<div class="grid">
+    <section class="NatureImgNormalSection">
+        <!--        Première lignes        -->
+        <img class="grid-item" id="natureIMG_1" src="img/NatureIMG/natureIMG_1.png">
+        <img class="grid-item" id="natureIMG_2" src="img/NatureIMG/natureIMG_2.png">
+        <img class="grid-item" id="natureIMG_3" src="img/NatureIMG/natureIMG_3.png">
+        <img class="grid-item" id="natureIMG_4" src="img/NatureIMG/natureIMG_4.png">
+        <img class="grid-item" id="natureIMG_5" src="img/NatureIMG/natureIMG_5.png">
+    </section>
+    <section class="NatureImgNormalSection2">
+        <!--        Deuxièmes lignes        -->
+        <img class="grid-item" id="natureIMG_6" src="img/NatureIMG/natureIMG_6.png">
+        <img class="grid-item" id="natureIMG_7" src="img/NatureIMG/natureIMG_7.png">
+        <img class="grid-item" id="natureIMG_8" src="img/NatureIMG/natureIMG_8.png">
+        <img class="grid-item" id="natureIMG_9" src="img/NatureIMG/natureIMG_9.png">
+        <img class="grid-item" id="natureIMG_10" src="img/NatureIMG/natureIMG_10.png">
+    </section>
+</div>
+<script src="js/NatureApp.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
