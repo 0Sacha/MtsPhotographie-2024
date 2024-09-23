@@ -192,8 +192,8 @@ select:hover {
 
 /*  Credit  */
 
+
 .credit {
-    text-align: center;
     color: white;
     text-decoration: none;
     font-family: Poppins, sans-serif;
@@ -215,7 +215,6 @@ select:hover {
 
 .copyright {
     font-size: small;
-    text-align: right;
     color: white;
     text-decoration: none;
     font-family: Poppins, sans-serif;
@@ -229,6 +228,23 @@ select:hover {
 }
 
 .copyright a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.crédit {
+    text-align: center;
+}
+
+.crédit a{
+    margin-top: 10px ;
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+.crédit a:hover {
     text-decoration: underline;
     font-weight: normal;
 }

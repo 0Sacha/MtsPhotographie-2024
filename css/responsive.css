@@ -1,10 +1,12 @@
 @media only screen and (max-width : 1024px) {
-    nav {
+    nav li a{
         /*display: none;*/
+        font-size: 49px;
     }
 
     nav select {
-        width: 145px ;
+        font-size: 49px;
+        width: 215px ;
     }
 
     /*.menuHamburger {*/
@@ -22,5 +24,12 @@
     .HomeIMG {
         display: none;
     }
+
+    .credit,.copyright {
+        text-align: left;
+        float: left;
+        font-size: 49px;
+    }
 }
+
 
