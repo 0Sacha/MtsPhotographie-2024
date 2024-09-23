@@ -3,6 +3,10 @@
         /*display: none;*/
     }
 
+    nav select {
+        width: 145px ;
+    }
+
     /*.menuHamburger {*/
     /*    display: flex;*/
     /*}*/
