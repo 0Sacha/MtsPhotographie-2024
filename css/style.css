@@ -43,6 +43,25 @@ nav li a:hover {
 
 /* HOME */
 
+.HomeH1 {
+    display: none;
+    position: absolute;
+    font-size: 35px;
+    float: left;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    margin-left: 58px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.HomeIMGResponsive {
+    border-radius: 10px 15px 10px 15px;
+    width: 100%;
+    display: none;
+}
+
 .HomeIMG {
     border-radius: 10px 15px 10px 15px;
     width: 100%;
