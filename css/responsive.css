@@ -1,0 +1,10 @@
+@media only screen and (max-width : 828px) {
+    nav {
+        display: none;
+    }
+
+    .menuHamburger {
+        display: flex;
+    }
+}
+
