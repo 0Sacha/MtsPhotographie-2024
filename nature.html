@@ -11,13 +11,18 @@
 <nav>
     <ul>
         <li><a href="index.html">Accueil</a></li>
-        <li><a href="#"><strong>Nature</strong></a></li>
-        <li><a href="portrait.html">Portrait</a></li>
-        <li><a href="astrophotographie.html">Astrophotographie</a></li>
-<!--        <li><a href="apropos.html">A propos</a></li>-->
-<!--        <li><a href="contact.html">Contact</a></li>-->
+        <select name="liens" onchange="window.location.href=this.value">
+            <option value="#">Photo</option>
+            <option value="nature.html">Nature</option>
+            <option value="portrait.html">Portrait</option>
+            <option value="astrophotographie.html">Astrophotographie</option>
+        </select>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
+<div class="menuHamburger">
+    <img src="./img/menuHamburger.svg" alt="">
+</div>
 <img class="HomeIMG" src="img/natureIMG.png" alt="Images d'accueil">
 <div id="popup-bg">
     <div id="popup-content">

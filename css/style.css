@@ -41,6 +41,18 @@ nav li a:hover {
     opacity: 0.8;
 }
 
+nav select {
+    font-size: 29px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    border: none;
+    width: 135px;
+    padding-left: 15px;
+    cursor: pointer;
+    background-color: #111111;
+}
+
 /* HOME */
 
 .HomeH1 {
