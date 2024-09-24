@@ -1,20 +1,15 @@
 @media only screen and (max-width : 1024px) {
-    nav li a{
-        /*display: none;*/
-        font-size: 49px;
+    nav, nav select  {
+        display: none;
     }
 
-    nav select {
-        font-size: 49px;
-        width: 225px ;
+    .menuHamburger {
+        display: flex;
     }
 
-    /*.menuHamburger {*/
-    /*    display: flex;*/
-    /*}*/
 
     .HomeH1 {
-        /*display: flex;*/
+        display: flex;
     }
 
     .HomeIMGResponsive {

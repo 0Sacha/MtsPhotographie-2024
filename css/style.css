@@ -2,6 +2,7 @@
 
 body {
     background: #111111;
+    max-width: 100%;
 }
 
 .menuHamburger {
@@ -13,6 +14,7 @@ body {
 }
 
 nav {
+    max-width: 100%;
     margin-top: 54px;
     margin-bottom: 54px;
     display: flex;
