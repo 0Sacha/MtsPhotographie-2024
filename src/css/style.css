@@ -44,7 +44,7 @@ body main #sidebar nav .top .logo li {
   justify-content: center;
   align-items: center;
 }
-body main #sidebar nav .top .logo li a {
+body main #sidebar nav .top .logo li p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ body main #sidebar nav li {
   justify-content: center;
   align-items: center;
 }
-body main #sidebar nav li a {
+body main #sidebar nav li p {
   display: flex;
   justify-content: center;
   align-items: center;
