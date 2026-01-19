@@ -163,5 +163,41 @@ body main section .mainContent .discover p img {
   width: 20px;
   height: 20px;
 }
+body main section .mainContent .portfolio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+body main section .mainContent .portfolio h1 {
+  color: #0A0A0A;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+}
+body main section .mainContent .portfolio p {
+  color: #6A6A6A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+body main section .photo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 85%;
+  width: 85%;
+  gap: 32px;
+}
+body main section .photo img {
+  display: flex;
+  width: 607px;
+  height: 455.25px;
+  border-radius: 16px;
+  filter: grayscale(100%);
+  transition: all ease-in-out 300ms;
+}
+body main section .photo img:hover {
+  filter: grayscale(0);
+  scale: 1.03;
+}
 
 /*# sourceMappingURL=style.css.map */
